@@ -1,44 +1,139 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <meta name="description" content="Conheça Game of Thrones: sinopse, produção, elenco e temporadas da série de televisão.">
+    <title>Tudo sobre Game of Thrones | Enciclopédia de Séries</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <header class="site-header">
+        <a class="brand" href="#inicio" aria-label="Enciclopédia de Séries, início">
+            <img src="assets/images/logo.png" alt="Logotipo da Enciclopédia de Séries">
+            <span>Enciclopédia de Séries</span>
+        </a>
+    </header>
 
-    <div class="bar"></div>
+    <nav class="top-nav" aria-label="Navegação do site">
+        <a href="#inicio">Página inicial</a>
+        <span aria-hidden="true">/</span>
+        <a href="#referencias">Fontes e referências</a>
+    </nav>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+    <div class="page-layout" id="inicio">
+        <nav class="sidebar" aria-label="Páginas sobre Game of Thrones">
+            <h2>Game of Thrones</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="#sinopse">Sinopse</a></li>
+                <li><a href="#serie">Série de TV</a></li>
+                <li><a href="#episodios">Episódios</a></li>
+                <li><a href="#producao">Produção</a></li>
+                <li><a href="#elenco">Elenco</a></li>
+                <li><a href="#recepcao">Recepção</a></li>
+                <li><a href="#referencias">Referências</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="main">
-            
-        </div>
+        <main id="conteudo" tabindex="-1">
+            <article>
+                <header class="article-header">
+                    <p class="eyebrow">Série de televisão • Fantasia dramática</p>
+                    <h1>Tudo sobre Game of Thrones</h1>
+                    <p class="intro">Uma visão geral da série inspirada nos livros de fantasia de George R. R. Martin, com informações sobre sua história, produção e temporadas.</p>
+                </header>
 
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
+                <section id="sinopse" aria-labelledby="titulo-sinopse">
+                    <h2 id="titulo-sinopse">Sinopse</h2>
+                    <p>Em Westeros, famílias nobres disputam o controle do Trono de Ferro enquanto alianças, conflitos e antigas ameaças transformam o destino dos Sete Reinos. Em paralelo, no outro lado do mar, Daenerys Targaryen busca recuperar o poder que sua família perdeu.</p>
+                    <p>A narrativa acompanha diferentes personagens e regiões, explorando temas como poder, lealdade, ambição e sobrevivência.</p>
+                </section>
+
+                <section id="serie" aria-labelledby="titulo-serie">
+                    <h2 id="titulo-serie">Série de TV</h2>
+                    <figure class="series-figure">
+                        <img src="assets/images/game-of-thrones.png" alt="Logotipo da série Game of Thrones sobre um fundo iluminado">
+                        <figcaption>Logotipo de Game of Thrones, usado na identidade visual da série.</figcaption>
+                    </figure>
+                    <p><cite>Game of Thrones</cite> é uma série de televisão norte-americana desenvolvida por David Benioff e D. B. Weiss para a HBO. Sua história adapta elementos da saga literária <cite>As Crônicas de Gelo e Fogo</cite>, escrita por George R. R. Martin.</p>
+                    <p>A produção estreou em 2011 e terminou em 2019, com oito temporadas. Os episódios alternam entre diferentes núcleos e lugares, formando uma narrativa de fantasia com disputas políticas e elementos sobrenaturais.</p>
+                </section>
+
+                <section id="episodios" aria-labelledby="titulo-episodios">
+                    <h2 id="titulo-episodios">Episódios</h2>
+                    <p>A série foi exibida entre 2011 e 2019. A tabela resume a quantidade de episódios de cada temporada.</p>
+                    <div class="table-scroll" role="region" aria-label="Resumo de temporadas e episódios" tabindex="0">
+                        <table>
+                            <caption>Temporadas de Game of Thrones</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Temporada</th>
+                                    <th scope="col">Ano de estreia</th>
+                                    <th scope="col">Episódios</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><th scope="row">1ª</th><td>2011</td><td>10</td></tr>
+                                <tr><th scope="row">2ª</th><td>2012</td><td>10</td></tr>
+                                <tr><th scope="row">3ª</th><td>2013</td><td>10</td></tr>
+                                <tr><th scope="row">4ª</th><td>2014</td><td>10</td></tr>
+                                <tr><th scope="row">5ª</th><td>2015</td><td>10</td></tr>
+                                <tr><th scope="row">6ª</th><td>2016</td><td>10</td></tr>
+                                <tr><th scope="row">7ª</th><td>2017</td><td>7</td></tr>
+                                <tr><th scope="row">8ª</th><td>2019</td><td>6</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section id="producao" aria-labelledby="titulo-producao">
+                    <h2 id="titulo-producao">Produção</h2>
+                    <p>As filmagens ocorreram em diferentes países, incluindo Irlanda do Norte, Croácia, Espanha e Islândia. Esses locais ajudaram a representar os variados territórios fictícios da história. A série também ficou conhecida pela produção de cenários, figurinos e efeitos visuais em grande escala.</p>
+                    <p>Para assistir a um material em vídeo, acesse a <a href="https://www.youtube.com/results?search_query=Game+of+Thrones+official+trailer+HBO">busca de trailers oficiais de Game of Thrones no YouTube</a>.</p>
+                </section>
+
+                <section id="elenco" aria-labelledby="titulo-elenco">
+                    <h2 id="titulo-elenco">Elenco</h2>
+                    <p>O elenco reúne personagens de diversas casas e regiões. Entre os intérpretes principais estão Peter Dinklage (Tyrion Lannister), Emilia Clarke (Daenerys Targaryen), Kit Harington (Jon Snow), Lena Headey (Cersei Lannister) e Maisie Williams (Arya Stark).</p>
+                </section>
+
+                <section id="recepcao" aria-labelledby="titulo-recepcao">
+                    <h2 id="titulo-recepcao">Recepção</h2>
+                    <p>Ao longo de sua exibição, a série alcançou grande audiência internacional e recebeu diversos prêmios. A escala de produção e as atuações foram frequentemente destacadas, enquanto a temporada final gerou opiniões variadas entre público e crítica.</p>
+                </section>
+
+                <section id="referencias" aria-labelledby="titulo-referencias">
+                    <h2 id="titulo-referencias">Referências</h2>
+                    <ul class="reference-list">
+                        <li><a href="https://www.hbo.com/game-of-thrones">Página oficial de Game of Thrones na HBO</a></li>
+                        <li><a href="https://www.britannica.com/topic/Game-of-Thrones">Enciclopédia Britannica: Game of Thrones</a></li>
+                        <li><a href="https://www.imdb.com/title/tt0944947/">IMDb: ficha da série e episódios</a></li>
+                    </ul>
+                    <p class="note">Texto original e resumido para fins educacionais; consulte as fontes para informações detalhadas.</p>
+                </section>
+            </article>
+        </main>
+
+        <aside class="anchors" aria-labelledby="indice-titulo">
+            <h2 id="indice-titulo">Neste artigo</h2>
+            <nav aria-label="Índice desta página">
+                <ol>
+                    <li><a href="#sinopse">Sinopse</a></li>
+                    <li><a href="#serie">Série de TV</a></li>
+                    <li><a href="#episodios">Episódios</a></li>
+                    <li><a href="#producao">Produção</a></li>
+                    <li><a href="#elenco">Elenco</a></li>
+                    <li><a href="#recepcao">Recepção</a></li>
+                    <li><a href="#referencias">Referências</a></li>
+                </ol>
+            </nav>
+        </aside>
     </div>
 
-    <div class="footer">
-
-    </div>
+    <footer class="site-footer">
+        <p>Conteúdo para fins educacionais. Game of Thrones é uma marca de seus respectivos detentores.</p>
+    </footer>
 </body>
 </html>
